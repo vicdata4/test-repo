@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+
+function getDataFromApi(word) {
+	const url = 'https://hn.algolia.com/api/v1/search?query=angular';
+  
+  
+  fetch(url).then(function(response){
+  	response.json();
+  }).then(function(data) {
+  	console.log(data)
+  });
+}
+
+
+console.log('antes de ejecutar fetch');
+getDataFromApi();
+
+
+
+
+
+
+
+</script>
+<body>
+
+<div>My First Heading</div>
+
+</body>
+</html>
