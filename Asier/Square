@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .square{
+        height: 200px;
+        width: 400px;
+        background-color: red;
+    }
+</style>
+
+
+<body>
+    <div class="square"></div>
+</body>
+</html>
